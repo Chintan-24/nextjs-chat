@@ -65,7 +65,12 @@
 }
 
 .ce-chat-feed-container {
+  overflow: hidden scroll;
   background-color: #4a5162 !important;
+}
+
+.ce-chat-feed-container{
+  overflow: hidden scroll;
 }
 
 .ce-primary-button {
@@ -203,4 +208,34 @@ new
     background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
   }
   
+  .ce-wrapper {
+    height: 100vh;
+  }
+
+  .ce-social-message-form{
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* .ce-feed-container-bottom{
+    position: fixed;
+    bottom: 0;
+  } */
+
+  .ce-chat-feed-column{
+    height: auto;
+    min-height: 93vh;
+  }
+
+  #ce-feed-container .ce-chat-feed-container{
+    overflow: inherit;
+  }
+
+  .ce-chat-feed .ce-chat-feed-column .ce-chat-feed-container{
+    height: 93vh;
+  }
+  
+  .ce-chat-title{
+    background-color: #4a5162;
+  }
 }
