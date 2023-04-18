@@ -217,25 +217,15 @@ new
     bottom: 0;
   }
 
-  /* .ce-feed-container-bottom{
+  .ce-feed-container-bottom{
     position: fixed;
     bottom: 0;
-  } */
-
-  .ce-chat-feed-column{
-    height: auto;
-    min-height: 93vh;
   }
 
+  .ce-chat-feed-column .ce-chat-list-column{
+    height: auto !important;
+  }
   #ce-feed-container .ce-chat-feed-container{
-    overflow: inherit;
-  }
-
-  .ce-chat-feed .ce-chat-feed-column .ce-chat-feed-container{
-    height: 93vh;
-  }
-  
-  .ce-chat-title{
-    background-color: #4a5162;
+    height: 200%;
   }
 }
